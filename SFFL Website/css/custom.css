@@ -1,0 +1,118 @@
+/** Custom fonts for text */
+h1 {
+  font-family: 'Merienda One', cursive;
+  color:white;
+}
+h2 {
+  font-family: 'Merienda One', cursive;
+  color:white;
+}
+h4 {
+  font-family: 'Merienda One', cursive;
+  color:white;
+}
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+}
+p {
+  font-family: 'Rancho', cursive;
+  color: white;
+}
+
+/** Grey upper navbar */
+.upperNavbar {
+  background-color: #636363;
+}
+
+/* Main navbar */
+.mainNavbar {
+  background-color: #709660;
+}
+.navbar-nav a {
+  font-family: 'Merienda One', cursive;
+  font-size: 18px;
+}
+
+/* Removes "gap" between jumbotrons */
+.jumbotron {
+  margin-bottom: 0;
+}
+.jumbotron h1 {
+  color: black;
+}
+.jumbotron h2 {
+  color: black;
+}
+.jumbotron h4 {
+  color:black;
+}
+.jumbotron p {
+  color: black;
+  font-size: 20px;
+}
+
+/* background jumbotron on top */
+.topJumbotron {
+  background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/images/classroomPicture.jpg');
+  background-color: white;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+/* lower jumbotron on 1st page */
+.lowerJumbotron {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/images/classroomPicture2.jpg');
+  background-color: white;
+  background-size: cover;
+  background-size: 100% 100%;
+
+}
+.lowerJumbotron p {
+  font-size: 3vh;
+}
+
+/* light green bar between sections */
+.jumbotronDivider {
+  background-color: #9fbd93;
+}
+
+.financialLiteracyJumbotron {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/images/financialLiteracy.jpg');
+  background-color: white;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+.joinJumbotron {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/images/joinUs.jpg');
+  background-color: white;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 550px;
+}
+
+.aboutJumbotron {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/images/aboutUs.jpg');
+  background-color: white;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 550px;
+}
